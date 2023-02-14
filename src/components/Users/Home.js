@@ -17,7 +17,7 @@ const Home = () => {
 
     useEffect(() => {
       dispatch(getUsers())
-    }, [getUsers])
+    }, [dispatch])
 
     const handleChecked = (event) => {
       setIsChecked(event.target.checked);
