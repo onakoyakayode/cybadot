@@ -17,7 +17,7 @@ const Home = () => {
 
     useEffect(() => {
       dispatch(getUsers())
-    }, [])
+    }, [getUsers])
 
     const handleChecked = (event) => {
       setIsChecked(event.target.checked);
@@ -31,7 +31,6 @@ const Home = () => {
 
   return !isLoading ? 
     <div className='user-display'>
-        <h2></h2>
         <h1>User's List</h1>
         <div className='filter-search'>
           <Filter />
