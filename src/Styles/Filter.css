@@ -1,0 +1,16 @@
+.filter-input {
+    width: auto;
+    margin: 2rem 0 10px 0;
+}
+
+.search-input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #99999995;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    outline: 1px solid #99999995;
+    border-radius: 4px;
+}

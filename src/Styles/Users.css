@@ -1,0 +1,138 @@
+.user-display {
+    width: 100%;
+    padding: 0 50px;
+}
+
+.user-display h1 {
+    background-color: steelblue;
+    padding: 20px;
+}
+
+.user-display-data {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    width: 80%;
+    margin: auto;
+}
+
+.user-card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 20px;
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+}
+
+.user-card-bg {
+    position: absolute;
+    height: 6%;
+    width: 100%;
+    background-color: rgba(0, 191, 255, 0.557);
+    top: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.user-card-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: flex-end;
+}
+
+
+.user-card-profile .user-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.user-card-profile .user-job {
+    font-size: 0.7rem;
+    font-weight: 300;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.user-card-profile .user-age {
+    font-size: .8rem;
+    opacity: .7;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 5px;
+}
+
+.user-card-profile .user-country {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.user-card-profile .user-hobby {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+
+.rmv {
+    width: 100%;
+}
+
+.rmv-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 0.7rem;
+    border: 0;
+    color: #fff;
+    background-color: rgb(184, 22, 22);
+    transition: all 0.3s ease;
+    width: 100%;
+   
+}
+
+.rmv-btn:hover {
+    opacity: 0.8;
+}
+
+.filter-search button {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+
+}
+
+.home label {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+    gap: 5px;
+}
+
+
+.home {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.home-filters {
+    width: 20%;
+    box-shadow: 3px 4px 25px rgba(0, 0, 0, 0.1);
+    height: 50vh;
+    padding: 20px;
+    border-radius: 5px;
+}
+
